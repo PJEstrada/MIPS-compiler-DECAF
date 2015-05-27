@@ -1,0 +1,23 @@
+class Program {
+    struct hola{
+        int c;
+        struct hola test;
+        char myChar;
+        struct test2{
+            int a;
+            boolean b;
+            struct hola c;
+        } x;
+        
+        
+
+    }
+    //struct test2 myvar;
+
+    void test(int a){
+        struct hola test;
+        a = test.x.a;
+    }
+
+
+}

@@ -1,0 +1,31 @@
+class Program {
+
+	int holi ;
+
+        struct XL{
+            int a;
+            int b;
+            char x;
+            boolean s;
+            int a[3];
+
+        }
+
+        boolean t[10];
+        char xz;
+	
+	int metodo(int a, int b){
+		
+		int c;
+		c = a + b ;
+		return c ;
+
+	}
+
+	void main(){
+		int x ;
+		x = metodo(23, 45) ;
+		return ;	
+	}
+
+}

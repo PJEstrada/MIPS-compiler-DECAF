@@ -1,0 +1,22 @@
+class Program {
+    struct hola{
+        int c;
+        struct hola test;
+        char myChar;
+
+
+    }
+
+    void test(int a){
+        a = 3+5*8/2;
+        int a[50];
+        if(true){
+            int a;
+        }
+    }
+
+    void test(int a, char x){
+        a = 3+5*8/2;
+    }
+
+}

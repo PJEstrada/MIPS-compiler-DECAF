@@ -1,0 +1,156 @@
+class program{
+
+	void main(){
+            int x;
+            x=90;
+            int y;
+            y = 78;
+
+            if(x<100||x>200&&x!=y){
+                x = 55;
+            }
+            else{
+                x = -1;
+            }
+        }
+
+}
+class program{
+
+	void main(){
+            int x;
+            x=90;
+            int y;
+            y = 78;
+            boolean a;
+            a = true;
+            if(x<100||false){
+                x = 55;
+            }
+            else{
+                x = -1;
+            }
+        }
+
+}
+class program{
+
+	void main(){
+            int x;
+            x=90;
+            int y;
+            y = 78;
+            boolean a;
+            a = true;
+            if(x<100||a == false||false){
+                x = 55;
+            }
+            else{
+                x = -1;
+            }
+        }
+
+}
+class program{
+
+	void main(){
+            int x;
+            x=90;
+            int y;
+            y = 78;
+            boolean a;
+            a = true;
+            if(a == false){
+                x = 55;
+            }
+            else{
+                x = -1;
+            }
+        }
+
+}
+class program{
+
+	void main(){
+            int x;
+            x=90;
+            int y;
+            y = 78;
+            boolean a;
+            a = true;
+            if(x<100||false){
+                x = 55;
+            }
+            else{
+                x = -1;
+            }
+        }
+
+}
+public class program{
+	void main(){
+        boolean a;
+        a = 8>3;
+        int x;
+	x = 52;
+        int y;
+        while(x<100){
+	x = x+1;
+	}
+
+}
+        
+}
+class program{
+
+	void main(){
+            int x;
+            x=90;
+            int y;
+            y = 78;
+
+            if(x<100&&false){
+                x = 55;
+            }
+            else{
+                x = -1;
+            }
+
+	int a;
+	a = 10000;
+        }
+
+}
+
+/* Llamada a metodos y return statement*/
+class program{
+
+	void main(){
+        boolean a;
+        a = 8>3;
+        int x;
+        int y;
+        if(a){
+            x = 55;
+	}
+        else{
+            x = -1;
+        }
+        myMethod(x);
+    }
+	int myMethod(int num1){
+            int x;
+            x=90+num1;
+            int y;
+            y = 78;
+
+            if(x<100||x>200&&x!=y){
+                x = 55;
+            }
+            else{
+                x = -1;
+            }
+            return x;
+        }
+        
+}

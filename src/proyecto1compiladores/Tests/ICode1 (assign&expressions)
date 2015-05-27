@@ -1,0 +1,33 @@
+class program{
+
+	void main(){
+        boolean a;
+        a = 8>3;
+        a = 3+5*8<80 != false;
+        int b;
+        b = 3*8*5*4*10*5*4*3;
+	}
+
+}
+class program{
+
+	void main(){
+
+        int b;
+	int c;
+	c = (5*9)* (3*3);
+        b =  (5*3)*(8*9)*10;
+	}
+
+}
+class program{
+
+	void main(){
+
+        int b;
+	int c;
+	c = (5+9)- (3+3);
+        b =  (5+3)-(8+9)+10;
+	}
+
+}

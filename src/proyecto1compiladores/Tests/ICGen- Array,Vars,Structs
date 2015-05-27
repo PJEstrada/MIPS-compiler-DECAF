@@ -1,0 +1,101 @@
+class program{
+    int a;
+    int x[10];
+    char ch;
+
+	void main(){
+            boolean a;
+            a = 8>3;
+            a = 3+5*8<80 != false;
+            int b;
+            b = 3*8*5*4*10*5*4*3;
+            ch = 'x';
+            if(b == 1){
+                int c;
+                c = 5;
+            }
+	}
+
+}
+// Acceso a arrays
+class program{
+    int a;
+    int x[10];
+    char ch;
+
+	void main(){
+            x[2] = 85;
+	}
+
+}
+
+class program{
+    int a;
+    int x[10];
+    char ch;
+
+	void main(){
+            a= x[3];
+	}
+
+}
+
+class program{
+    struct A{
+        int a;
+        char b;
+    }
+    int a;
+    char c;
+    struct B{
+        int c;
+        struct A d;
+    }
+    struct B coso; 
+
+    void main(){
+        coso.d.b = 'a';
+    }
+
+}
+
+/*-----------------------------------------*/
+
+class program{
+    struct A{
+        int a;
+        char b;
+    }
+    int a;
+    char c;
+    struct B{
+        int c;
+        struct A d;
+    }
+    struct B coso[5]; 
+
+    void main(){
+        coso[2].d.b = 'a';
+    }
+
+}
+
+class program{
+    struct A{
+        int a;
+        char b;
+    }
+    int a;
+    char c;
+    struct B{
+        int c;
+        struct A d[5];
+    }
+    struct B coso[5]; 
+
+    void main(){
+        coso[2].d[2].b = 'a';
+    }
+
+}
+ 

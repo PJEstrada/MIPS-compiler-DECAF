@@ -1,0 +1,78 @@
+class Program {
+
+	
+	struct XL {
+		int a;
+		char x;
+		boolean s;
+		
+	}
+	void main(int hola, char si , int a){
+		int x;
+		3+5*8/2;
+		boolean hola[52] ;
+		while (x<8){
+			x = x+1 ;
+			int a ;
+                        a = 100;
+                        if(x >100){
+                            hola[33] = true;
+                        }
+                        else{
+                            int i;
+                            while(i<50){
+                               i = i+ 1;
+							hola[i] = false ;
+                            }
+                        }
+			
+		}
+		
+		return 3+5 ;
+	}
+	
+	int F(int x[]){
+		int y;
+		y = 10;
+		if( y > x[0] ){
+	                                            y = 1000 ;
+		}
+		else{   y = -5; }
+		
+		return y;
+	}
+}
+
+parser.program.inspect(parser)
+
+class Program {
+	struct XL {
+		int a;
+		char x;
+		boolean s;
+		
+	}
+	void main(int hola, char si , int a){
+		int x;
+		3+5*8/2;
+		boolean hola[52] ;
+		while (x<8){
+			x = x+1 ;
+			int a ;
+                        a = 100;
+                        if(x >100){
+                            hola[33] = true;
+                        }
+                        else{
+                            int i;
+                            while(i<50){
+                               i = i+ 1;
+							hola[i] = false ;
+                            }
+                        }
+			
+		}
+		
+		return 3+5 ;
+	}
+}

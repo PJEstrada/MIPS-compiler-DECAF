@@ -1,0 +1,55 @@
+class Program {
+
+	struct palabra{
+		char letra;
+		int numero;
+		boolean bandera;
+		int lista[10];
+	}
+
+	struct palabra palabrita;
+	int ejemplo;
+
+
+	int metodo(){
+		struct algo{
+		struct palabra word;
+		} comida;
+		int x;
+		x = 5 + 4;
+
+		x = comida.word.numero;
+		return x;
+	}
+
+	void poli(int hola, char si , int a){
+		int x;
+		char y;
+		boolean n;
+		void algo;
+		struct palabra palabrita;
+		x = palabrita.numero;
+		x = metodo();
+		y = (char) x;
+		x = (int) y;
+	}
+
+	void main(){
+		struct palabra uno;
+		struct palabra dos;
+		boolean bandera;
+
+		poli(5, 'a', 2);
+		if(5<=4){
+			return;
+		}
+		if(dos == uno){
+			return;
+		}
+		while(! true){
+
+		}
+		bandera = (4+3*2) > (3/2+3) || 3 <= 0 && uno!=dos; 
+	}
+
+}

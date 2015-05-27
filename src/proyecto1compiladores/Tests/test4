@@ -1,0 +1,20 @@
+class main 
+{
+	struct A
+	{
+		int A;
+		boolean B;
+	}
+	int main (int A, boolean B)
+	{
+		char D;
+		char C;
+		boolean B;
+		D = '12';
+		C = 20;
+		B = true;
+		char F;
+		F = D + C;
+		return 0;
+	}
+}

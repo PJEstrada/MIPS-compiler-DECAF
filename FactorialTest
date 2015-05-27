@@ -1,0 +1,20 @@
+class program {
+
+    int factorial(int x){
+        int result;
+        if (x==1){
+            return 1;
+        }
+        else{
+            result = factorial(x-1)*x;
+        }
+        return result;
+    }
+
+    void main(int a){
+        int s;
+        s = factorial(a);
+
+    }
+
+}

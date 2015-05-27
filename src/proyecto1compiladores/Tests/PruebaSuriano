@@ -1,0 +1,54 @@
+ class Program {
+    struct hola{
+        int c;
+        //struct hola test[5];
+        char myChar;
+    } A [5];
+
+
+    void test(int a){
+        struct hola h;
+		int Ah[5];
+		int ah;
+		ah = Ah[2];
+		Ah[1] = ah;
+		char ab;
+        a = 3+5*8/2+(int)ab;
+        if(true){
+            int a;
+        }
+    }
+
+
+    void main(){
+        int hehe;
+		test(hehe);
+    }
+}
+ 
+class Program{
+	int hola;
+	struct hola{
+        int c;
+        char myChar;
+    }A[5];
+	int hehe;
+	struct adios{
+        int c;
+        struct hola test[2];
+        char myChar;
+    }
+	struct saludo{
+        int c;
+        struct adios test;
+        char myChar;
+    }
+	void main(){
+		int x;
+		int y;
+		struct saludo OK[5];
+		x = OK[2].test.test[1].c;
+		//y = A[2].c;
+		//x = OK[y].test.test[1].c;
+	}
+}

@@ -1,0 +1,460 @@
+class program{
+    void main(){
+        int x;
+        int a[5];
+        a[2] = 8;
+        x = 42 + a[2];
+        print_int(x);
+    }
+
+}
+
+//Varios nombres para el mismo metodo
+class program{
+
+    void hola(int x){
+	int y;
+	y =0;
+
+	}
+    void hola(char x){
+	int y;
+	y =0;
+
+	}
+    void hola(int x,char i){
+	int y;
+	y =0;
+
+	}
+
+    void main(){
+        int x;
+        int a[5];
+        a[2] = 8;
+        x =  42 + a[2] ;
+
+    }
+
+}
+
+class x{
+	void main(){
+		int x;
+		int y;
+		int z;
+		int j;
+		x = 40+60;
+		y = x + 100;
+		z = y +x +100;
+		j = z + x +y+300+500+500;
+		int a1;
+		int a2;
+		int a3;
+		int a4;
+		a1 = 50+50;
+		a2 = a1+500;
+		a3 = 400+a2;
+		a4 = j + j + a3;
+
+	}
+
+}
+
+class x{
+	void main(){
+		int x;
+		int y;
+		int z;
+		int j;
+		x = 40+60;
+		y = x + 100;
+		z = y +x +100;
+		j = z + x +y;
+
+	}
+
+}
+
+
+//2 registros
+class x{
+    void main(){
+        int x;
+        int a;
+        int b;
+        int c;
+        a = 5;
+        b = 10;
+        c = 8;
+        x = a+b*c;
+    }    
+
+
+
+    }
+
+
+
+
+}
+
+//Ej#2: 3 registros
+class x{
+    int fg;
+    void main(){
+        int x;
+        int a;
+        int b;
+        int c;
+        int d;
+        int e;
+        int f;
+        a = 20;
+        b = 5;
+        c = 2;
+        d = 3;
+        e = 4;
+        f = 6;
+        x = (a/(b+c)) - d*(e+f);
+        print_int(x);
+        fg = 895;
+        print_char('\n')
+        print_int(fg);
+
+
+    }
+
+
+
+}
+class x{
+    void main(){
+        int x;
+        int a;
+        int b;
+        int c;
+        int d;
+        int e;
+        int f;
+        x = (a/(b+c)) - d*(e+f)
+        
+
+
+
+    }
+
+
+
+}
+
+//ARREGLOS 1
+
+class arr{
+    void main(){
+
+        int a[5];
+        int b;
+        a[2] = 9;
+
+    }
+
+
+}
+class arr{
+    void main(){
+
+        int a[5];
+        int b;
+         a[3] = 80; 
+         a[4]=20;
+        a[2] = a[3]+a[4];
+
+    }
+
+
+}
+class arr{
+    void main(){
+
+        int a[5];
+
+        int b[4];
+         a[3] = input_int(); 
+         a[4]=input_int();
+
+        b[3] = a[3]+a[4];
+        print_int(b[3]);
+
+    }
+
+
+}
+
+// STRUCTS
+
+class st{
+    struct hola{
+        int a;
+        int b;
+        char x;
+    }
+    void main(){
+        int a;
+        struct hola m;
+        a = 50;
+        m.b = 60;
+        m.a = a+m.b;
+        print_int(m.a);
+
+    }
+
+
+}
+
+//CONTROL FLOW
+
+class st{
+    void main(){
+        int a;
+        a = input_int();
+        if( a== 7 || a == 6){
+            a = 50;
+
+        }
+        else{
+            a = 100;
+
+        }
+        print_int(a);
+
+    }
+
+
+}
+class st{
+    void main(){
+        int a;
+        a = 0;
+        while( a <600){
+            a = a +1;
+            print_int(a);
+            print_char('\n');
+
+        }
+
+
+    }
+
+
+}
+class OutOfBounds{
+    void main(){
+        int a;
+        a = 0;
+        int b[5];
+        while( a <6){
+            b[a] = a;
+            a = a+1;
+            print_int(a);
+        }
+
+
+    }
+
+
+}
+class OutOfBounds2{
+    void main(){
+        int a;
+        a = 0;
+        int b[5];
+        while( a <6){
+            b[a] = a*10;
+            a = a+1;
+            print_int(b[a]);
+            print_char('\n');
+        }
+
+
+    }
+
+
+}
+
+//Pruebas metodos y paso de parametros
+class met{
+    int sum(int x, int y, int z){
+        int r;
+        r = x+y+z;
+        return r;
+    }
+
+    void main(){
+        int a1;
+        int a2;
+        int a3;
+        a1 = 2;
+        a2 = 3;
+        a3 = 4;
+        a2 = sum(a1,a2,a3);
+        
+
+    }
+
+
+}
+class met{
+    int sum(int x, int y, int z){
+        int r;
+        r = x+y+z;
+        return r;
+    }
+
+    void main(){
+        int x;
+        int a1;
+        int a2;
+        int a3;
+        a1 = 2;
+        a2 = 3;
+        a3 = 4;
+        x = sum(a1,a2,a3);
+        print_int(x);
+        
+
+    }
+
+
+}
+class Program {
+
+    int fibonacci( int x){
+        int fib;
+         if(x==0 || x==1){
+            return 1;
+        }
+        else{
+            fib = fibonacci(x-1)+fibonacci(x-2);
+        }
+        return fib;
+
+    }
+
+
+    void main(){
+        int a;
+        a = input_int();
+        int r;
+        r = fibonacci(a);
+        print_int(r);
+    }
+
+
+
+}
+
+class Factorial{
+
+    int factorial(int num){
+        int result;
+        if(num<=1){
+            result = 1;
+
+        }
+        else{
+            result = num*factorial(num-1);
+
+        }
+        return result;
+
+    }
+
+    void main(){
+        int a;
+        int b;
+        a = input_int();
+        b = factorial(a);
+        print_int(b);
+
+
+    } 
+
+}
+class print {
+
+   void main(){
+    print (85);
+
+    }
+
+}
+
+class input {
+
+   void main(){
+     int a;
+     a =  input_int();
+     print_int(a);
+
+    }
+
+}
+
+class input {
+
+   void main(){
+     boolean a;
+     a =  input_boolean();
+     print_char(' ');
+     print_boolean(a);
+
+    }
+
+}
+
+class Program {
+    int factorial(int num){
+        int result;
+        if(num<=1){
+            result = 1;
+
+        }
+        else{
+            result = num*factorial(num-1);
+
+        }
+        return result;
+
+    }
+
+    int fibonacci( int x){
+        int fib;
+         if(x==0 || x==1){
+            return 1;
+        }
+        else{
+            fib = fibonacci(x-1)+fibonacci(x-2);
+        }
+        return fib;
+
+    }
+
+
+    void main(){
+        int a;
+        a = input_int();
+        int i;
+        i =0;
+        while(i<a){
+            int s ;
+            s =fibonacci(i);
+            print_int(s);
+            print_char('\n');
+            i = i+1;
+        }
+    }
+
+
+
+}

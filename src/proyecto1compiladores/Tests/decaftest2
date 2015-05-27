@@ -1,0 +1,65 @@
+
+
+
+
+class Program {
+    struct hola{
+        int c;
+        struct hola test;
+        char myChar;
+
+
+    }
+
+    int fibonacci( int x){
+        int fib;
+         if(x==0 || x==1){
+            return 1;
+        }
+        else{
+            fib = fibonacci(x-1)+fibonacci(x-2);
+        }
+        return fib;
+
+    }
+
+    void test(int a){
+        struct hola h;
+        a = 3+5*8/2+h.c;
+        if(true){
+            int a;
+        }
+    }
+
+
+    void main(int a, char x){
+        fibonacci(a);
+    }
+
+
+
+}
+class Program {
+
+    int fibonacci( int x){
+        int fib;
+         if(x==0 || x==1){
+            return 1;
+        }
+        else{
+            fib = fibonacci(x-1)+fibonacci(x-2);
+        }
+        return fib;
+
+    }
+
+
+    void main(){
+        int a;
+        a = 3;
+        fibonacci(a);
+    }
+
+
+
+}
