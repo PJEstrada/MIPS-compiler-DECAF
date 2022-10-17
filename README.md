@@ -2,9 +2,9 @@ Compiler of the DECAF Language:
 
 Generates MIPS CODE:
 
-DECAF GRAMMAR:
+## DECAF GRAMMAR:
 
-
+```
 grammar DECAF ;
 
 
@@ -144,4 +144,4 @@ int_literal : NUM ;
 char_literal : CHAR  ;
 
 bool_literal : TRUE | FALSE  ;
-
+```
